@@ -1,4 +1,4 @@
-# m8 :checkered_flag:
+# m8 :chart_with_upwards_trend:
 </br></br>
 
 <h2 align="center"> - Sobre </h2>
