@@ -1,6 +1,6 @@
 # m8
 
-### Sobre
+### Sobre :checkered_flag:
 
 <p align=justify>A tarefa do aplicativo e transformar a vida financeira das pessoas para melhor.
 E para isso acontecer, nada é mais importante do que a educação. 
@@ -18,30 +18,32 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
 
 ### Vídeo de Apresentação:
 
-~~Ficará pronto em breve~~
+Em desenvolvimento :warning:
 
 ### Vídeo Propaganda:
 
-~~Ficará pronto em breve~~
+Em desenvolvimento :warning:
 
 ### Fluxograma:
 
-~~Ficará pronto em breve~~
+Em desenvolvimento :warning:
 
 ### Update
 
 Projeto sofrerá atualizações ao decorrer do desenvolvimento.
 
-### Logo
+<br /> 
 
+<h2 align="center"> Logo </h2>
+ <br />
 <div align="center">
 <img src="https://user-images.githubusercontent.com/58218270/160380846-0aaaff10-e559-4d56-8c50-acc3dc71d1da.png" width="250px" />
 </div>
 
 ### Interface
 
-~~Ficará pronto em breve~~
+Em desenvolvimento :warning:
 
 ### Navegação
 
-~~Ficará pronto em breve~~
+Em desenvolvimento :warning:
