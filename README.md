@@ -34,7 +34,9 @@ Projeto sofrerá atualizações ao decorrer do desenvolvimento.
 
 ### Logo
 
-#### m8
+<div align="center">
+<img src="https://user-images.githubusercontent.com/58218270/160380846-0aaaff10-e559-4d56-8c50-acc3dc71d1da.png" width="280px" />
+</div>
 
 ### Interface
 
