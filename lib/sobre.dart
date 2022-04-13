@@ -20,7 +20,7 @@ class _SobrePageState extends State<SobrePage> {
       ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(25.0),
+        padding: const EdgeInsets.all(30.0),
         child: SafeArea(
                   child: Center(
           child: Column(
@@ -34,9 +34,9 @@ class _SobrePageState extends State<SobrePage> {
                Text('\nM8\n\n',style: const TextStyle(fontWeight: FontWeight.bold),),
                Text("           Nossa tarefa e transformar a vida financeira"
                      "das pessoas para melhor. E para isso acontecer,"
-                     "nada é mais importante do que a educação.\n\n"
+                    " nada é mais importante do que a educação.\n\n"
                     "           Pensando nisso, criamos um app pensando"
-                    "em você. Sabemos que a forma como consumimos "
+                    " em você. Sabemos que a forma como consumimos "
                     "um conteúdo é tão importante quanto o conteúdo"
                     "em si.\n\n" 
                     "          Por isso, o aplicativo foi desenvolvido pensando"
