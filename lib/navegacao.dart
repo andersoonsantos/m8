@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:m8/home.dart';
 import 'package:m8/licoes.dart';
+import 'package:m8/quizone.dart';
+import 'package:m8/quizthree.dart';
+import 'package:m8/quiztwo.dart';
 import 'package:m8/sobre.dart';
 
 class NavegacaoPage extends StatefulWidget {
@@ -38,6 +41,7 @@ class _NavegacaoPageState extends State<NavegacaoPage> {
           ProfileSreenState(),
           LicoesPage(),
           SobrePage(),
+         
           
         ],
         onPageChanged: setPaginaAtual,

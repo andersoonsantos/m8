@@ -1,5 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:m8/quizone.dart';
+import 'package:m8/quizthree.dart';
+import 'package:m8/quiztwo.dart';
 
 
 class LicoesPage extends StatefulWidget {
@@ -44,7 +47,15 @@ class _LicoesPageState extends State<LicoesPage> {
           child: Center(
             child: Text('Lição 1', style: TextStyle(color: Color(0xFF60D45C)),),
           ),
-            onPressed: (){}
+            onPressed: (){
+               Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => QuizOne()),
+  );
+
+
+
+            }
       ),
 
           decoration: BoxDecoration(
@@ -80,7 +91,15 @@ class _LicoesPageState extends State<LicoesPage> {
             
             child: Text('Lição 2', style: TextStyle(color: Color(0xFF60D45C))),
           ),
-            onPressed: (){ },
+            onPressed: (){ 
+                       Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => QuizTwo()),
+  );
+
+
+
+            },
 
       ),
       decoration: BoxDecoration(
@@ -110,7 +129,13 @@ class _LicoesPageState extends State<LicoesPage> {
           child: Center(
             child: Text('Lição 3', style: TextStyle(color: Color(0xFF60D45C)),),
           ),
-            onPressed: (){}
+            onPressed: (){
+
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => QuizThree()),
+          );
+            }
                  ),
       decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(11)),
