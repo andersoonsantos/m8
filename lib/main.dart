@@ -89,7 +89,7 @@ class _LoginScreenState extends State<LoginScreen> {
        ScaffoldMessenger.of(context)
       .showSnackBar(
           const SnackBar(
-            content: Text('O domínio do e-mail informado é inválido.'),
+            content: Text('E-mail informado é inválido.'),
             backgroundColor: Color(0xFF60D45C),
        ) );
     //'O domínio do e-mail informado é inválido.'
@@ -105,10 +105,15 @@ class _LoginScreenState extends State<LoginScreen> {
   else {
   ScaffoldMessenger.of(context)
       .showSnackBar(
-          const SnackBar(
-            content: Text('Digite os dados'),
+           SnackBar(
+             
+            content: Text('Preencha os dados corretamente.'),
             backgroundColor: Color(0xFF60D45C),
-       ) );
+            duration: const Duration(milliseconds: 1500),
+                            
+          
+            ),
+            );       
   } 
    }
   return user;
