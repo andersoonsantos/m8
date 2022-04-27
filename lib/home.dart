@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:m8/main.dart';
+
+                       
 
 class ProfileSreenState extends StatefulWidget {
   const ProfileSreenState({ Key? key }) : super(key: key);
@@ -8,6 +12,14 @@ class ProfileSreenState extends StatefulWidget {
 }
 
 class _ProfileSreenStateState extends State<ProfileSreenState> {
+
+  final FirebaseAuth auth = FirebaseAuth.instance;
+
+         signOut() async {
+         await auth.signOut();                          
+         Navigator.pushReplacement(
+         context, MaterialPageRoute(builder: (context) => HomePage()));
+        }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +33,11 @@ class _ProfileSreenStateState extends State<ProfileSreenState> {
       
       actions: [
           IconButton(
-            onPressed: null,
+            onPressed: (){
+
+            signOut();
+
+            },
             icon: Icon(Icons.logout,color: Color(0xFF60D45C),),
           ),
         ],

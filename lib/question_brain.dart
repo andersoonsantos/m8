@@ -7,11 +7,11 @@ class QuestionBrain {
     // list have indices or an index it defines the position of the item in the list
     // it starts with 0 to ......
 
-    Question('Uma ação é a menor parte do patrimonio da empresa?', true),
-    Question('Uma empresa emite ações com o objetivo de captar recursos?', true),
-    Question('O maior risco do investimento em ações é o de crédito', false),
-    Question('Não há risco em se investir em ações', false),
-    Question('Ações são ativos de renda variável', true),
+    Question('Uma ação é a menor parte do patrimonio da empresa ?',true),
+    Question('Uma empresa emite ações com o objetivo de captar recursos ?', true),
+    Question('O maior risco do investimento em ações é o de crédito ?', false),
+    Question('Não há risco em se investir em ações ?', false),
+    Question('Ações são ativos de renda variável ?', true),
 
   ];
 

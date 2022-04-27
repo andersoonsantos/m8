@@ -8,10 +8,10 @@ class QuestionBrain {
     // it starts with 0 to ......
 
     Question('O ativo de renda váriavel é mais arriscado por não ser possível dimensionar se retorno ?', true),
-    Question('Risco de mercado é a incerteza quanto ao cpmportamento do preço dos ativos?', true),
+    Question('Risco de mercado é a incerteza quanto ao cpmportamento do preço dos ativos ?', true),
     Question('Títulos públicos e CDBs são ativos de renda váriavel ?', false),
     Question('O risco de mercado próvem da incerteza quanto ao preço dos ativos ?', true),
-    Question('A renda váriavel se adequa a todos tipos de investimentos?', false),
+    Question('A renda váriavel se adequa a todos tipos de investimentos ?', false),
    
 
   ];

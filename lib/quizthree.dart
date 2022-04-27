@@ -25,7 +25,7 @@ class _QuizThreeState extends State<QuizThree> {
         Alert(
           context: context,
           title: 'Fim!',
-          desc: 'Quiz',
+         
     
           buttons: [
             DialogButton(child: Text("Refazer",style: TextStyle(color:Colors.white, fontSize: 20 )),color: Color(0xFF60D45C), 
@@ -86,8 +86,8 @@ class _QuizThreeState extends State<QuizThree> {
         children: [
           Expanded(
             child: Container(
-                margin: EdgeInsets.all(15),
-                padding: EdgeInsets.all(15),
+                margin: EdgeInsets.all(30),
+                padding: EdgeInsets.all(30),
                   child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -96,7 +96,7 @@ class _QuizThreeState extends State<QuizThree> {
                       child: Center(
                         child: Text(
                           brain.getQuestionText(),
-                          style: TextStyle(fontSize: 25.0),
+                          style: TextStyle(fontSize: 21.0),
                         ),
                       ),
                     ),

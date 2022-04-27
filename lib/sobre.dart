@@ -42,7 +42,7 @@ class _SobrePageState extends State<SobrePage> {
                     "          Por isso, o aplicativo foi desenvolvido pensando"
                     "em quem quer se dedicar às suas finanças, mas"
                     "precisa daquele impulso inicial e de uma"
-                    "melhor organização dos temas." , textDirection: TextDirection.ltr,textAlign: TextAlign.justify ),
+                    "melhor organização dos temas." , textDirection: TextDirection.ltr,textAlign: TextAlign.justify),
                       
          ],
 

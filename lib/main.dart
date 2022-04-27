@@ -76,9 +76,40 @@ class _LoginScreenState extends State<LoginScreen> {
      UserCredential userCredential = await auth.signInWithEmailAndPassword(email: email, password: password);
      user = userCredential.user;
    }on FirebaseAuthException catch (e){
-     if (e.code == "user-not-found"){
-       print("Usuário não encontrado para esse e-mail");
-     }
+     if (e.code == 'user-not-found'){
+      ScaffoldMessenger.of(context)
+      .showSnackBar(
+          const SnackBar(
+            content: Text('O usuário informado não está cadastrado.'),
+            backgroundColor: Color(0xFF60D45C),
+       ) );
+
+       //print("Usuário não encontrado para esse e-mail");
+     }else if (e.code == 'invalid-email') {
+       ScaffoldMessenger.of(context)
+      .showSnackBar(
+          const SnackBar(
+            content: Text('O domínio do e-mail informado é inválido.'),
+            backgroundColor: Color(0xFF60D45C),
+       ) );
+    //'O domínio do e-mail informado é inválido.'
+  } else if (e.code == 'wrong-password') {
+     ScaffoldMessenger.of(context)
+      .showSnackBar(
+          const SnackBar(
+            content: Text('A senha informada está incorreta.'),
+            backgroundColor: Color(0xFF60D45C),
+       ) );
+    //'A senha informada está incorreta.'
+  }
+  else {
+  ScaffoldMessenger.of(context)
+      .showSnackBar(
+          const SnackBar(
+            content: Text('Digite os dados'),
+            backgroundColor: Color(0xFF60D45C),
+       ) );
+  } 
    }
   return user;
  }
