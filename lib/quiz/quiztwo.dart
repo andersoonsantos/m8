@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:m8/licoes.dart';
-import 'package:m8/navegacao.dart';
+import 'package:m8/lessons.dart';
+import 'package:m8/navigation/navigation.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-import 'package:m8/question_brain2.dart';
+import 'package:m8/question/question_brain2.dart';
 
 
 QuestionBrain brain = new QuestionBrain();
@@ -80,6 +80,16 @@ class _QuizTwoState extends State<QuizTwo> {
         title: Text('Lição 2',
       style: TextStyle(color: Color(0xFF60D45C)),
       ),
+      leading: Builder(
+      builder: (BuildContext context) {
+      return IconButton(
+        color: Color(0xFF60D45C),
+        icon: const Icon(Icons.arrow_back),
+        onPressed: () { 
+          Navigator.of(context).pop();
+         },
+      );
+    },),
       ),
       body: Column(
         children: [

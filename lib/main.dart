@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:m8/home.dart';
-import 'package:m8/navegacao.dart';
+import 'package:m8/navigation/navigation.dart';
 
 void main() {
   runApp(const MyApp());

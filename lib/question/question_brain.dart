@@ -1,4 +1,4 @@
-import 'package:m8/question_class.dart';
+import 'package:m8/question/question_class.dart';
 
 class QuestionBrain {
   int _questionNumber = 0;

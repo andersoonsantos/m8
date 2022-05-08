@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:m8/home.dart';
-import 'package:m8/licoes.dart';
-import 'package:m8/quizone.dart';
-import 'package:m8/quizthree.dart';
-import 'package:m8/quiztwo.dart';
-import 'package:m8/sobre.dart';
+import 'package:m8/lessons.dart';
+import 'package:m8/on.dart';
 
 class NavegacaoPage extends StatefulWidget {
   const NavegacaoPage({ Key? key }) : super(key: key);

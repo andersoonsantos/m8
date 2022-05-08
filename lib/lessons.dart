@@ -1,8 +1,7 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:m8/quizone.dart';
-import 'package:m8/quizthree.dart';
-import 'package:m8/quiztwo.dart';
+import 'package:m8/quiz/quizone.dart';
+import 'package:m8/quiz/quizthree.dart';
+import 'package:m8/quiz/quiztwo.dart';
 
 
 class LicoesPage extends StatefulWidget {

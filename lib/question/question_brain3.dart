@@ -1,4 +1,4 @@
-import 'package:m8/question_class.dart';
+import 'package:m8/question/question_class.dart';
 
 class QuestionBrain {
   int _questionNumber = 0;
@@ -7,11 +7,11 @@ class QuestionBrain {
     // list have indices or an index it defines the position of the item in the list
     // it starts with 0 to ......
 
-    Question('O Tesouro Direto é um programa que facillita a negociação de títulos públicos por pessoas jurídicas ?', false),
-    Question('O título que rende de acordo com a inflação é o Tesouro Selic ?', false),
-    Question('O Tesouro Direto é uma iniciativa dos municípios ?', false),
-     Question('Os títulos públicos são uma modalidade de renda fixa ?', true),
-      Question('Os títulos da dívida são seguros e de fácil resgate ?', true),
+    Question('O ativo de renda váriavel é mais arriscado por não ser possível dimensionar se retorno ?', true),
+    Question('Risco de mercado é a incerteza quanto ao cpmportamento do preço dos ativos ?', true),
+    Question('Títulos públicos e CDBs são ativos de renda váriavel ?', false),
+    Question('O risco de mercado próvem da incerteza quanto ao preço dos ativos ?', true),
+    Question('A renda váriavel se adequa a todos tipos de investimentos ?', false),
    
 
   ];

@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:m8/licoes.dart';
-import 'package:m8/main.dart';
-import 'package:m8/navegacao.dart';
+import 'package:m8/navigation/navigation.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-import 'package:m8/question_brain.dart';
+import 'package:m8/question/question_brain3.dart';
 
 QuestionBrain brain = new QuestionBrain();
 
-class QuizOne extends StatefulWidget {
-  const QuizOne({ Key? key }) : super(key: key);
+
+class QuizThree extends StatefulWidget {
+  const QuizThree({ Key? key }) : super(key: key);
 
   @override
-  State<QuizOne> createState() => _QuizOneState();
+  State<QuizThree> createState() => _QuizThreeState();
 }
 
-class _QuizOneState extends State<QuizOne> {
- 
- List<Widget> scoreKeeper = [];
+class _QuizThreeState extends State<QuizThree> {
+  List<Widget> scoreKeeper = [];
 
   void checkAnswer(bool userPickedAnswer) {
     bool correctAnswer = brain.getCorrectAnswer(); // getting the correct answer
@@ -26,22 +24,20 @@ class _QuizOneState extends State<QuizOne> {
         Alert(
           context: context,
           title: 'Fim!',
-          
+         
     
           buttons: [
-            DialogButton(child: Text("Refazer", style: TextStyle(color:Colors.white, fontSize: 20 )),color: Color(0xFF60D45C),
-        
-             onPressed: (){
-                      Navigator.pop(context);
+            DialogButton(child: Text("Refazer",style: TextStyle(color:Colors.white, fontSize: 20 )),color: Color(0xFF60D45C), 
+            onPressed: (){
+                 Navigator.pop(context);
   
 
             }),
             DialogButton(child: Text("Início",style: TextStyle(color:Colors.white, fontSize: 20 )),color: Color(0xFF60D45C), onPressed: (){
-           Navigator.push(
+         Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => NavegacaoPage()),
   );
- 
 
 
             }),
@@ -81,9 +77,19 @@ class _QuizOneState extends State<QuizOne> {
      appBar: AppBar(
         backgroundColor: Color(0xFFFFFFFF),
         centerTitle: true,
-        title: Text('Lição 1',
+        title: Text('Lição 3',
       style: TextStyle(color: Color(0xFF60D45C)),
       ),
+      leading: Builder(
+      builder: (BuildContext context) {
+      return IconButton(
+        color: Color(0xFF60D45C),
+        icon: const Icon(Icons.arrow_back),
+        onPressed: () { 
+          Navigator.of(context).pop();
+         },
+      );
+    },),
       ),
       body: Column(
         children: [
