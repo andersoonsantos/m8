@@ -1,4 +1,4 @@
-import 'package:m8/question_class.dart';
+import 'package:m8/question/question_class.dart';
 
 class QuestionBrain {
   int _questionNumber = 0;
@@ -7,12 +7,14 @@ class QuestionBrain {
     // list have indices or an index it defines the position of the item in the list
     // it starts with 0 to ......
 
-    Question('Uma ação é a menor parte do patrimonio da empresa ?',true),
-    Question('Uma empresa emite ações com o objetivo de captar recursos ?', true),
-    Question('O maior risco do investimento em ações é o de crédito ?', false),
-    Question('Não há risco em se investir em ações ?', false),
-    Question('Ações são ativos de renda variável ?', true),
-
+    Question(
+        'O Tesouro Direto é um programa que facillita a negociação de títulos públicos por pessoas jurídicas ?',
+        false),
+    Question('O título que rende de acordo com a inflação é o Tesouro Selic ?',
+        false),
+    Question('O Tesouro Direto é uma iniciativa dos municípios ?', false),
+    Question('Os títulos públicos são uma modalidade de renda fixa ?', true),
+    Question('Os títulos da dívida são seguros e de fácil resgate ?', true),
   ];
 
   // getting question text
