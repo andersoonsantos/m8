@@ -55,10 +55,10 @@ class _GoldState extends State<Gold> {
                   Padding(padding: const EdgeInsets.symmetric(vertical: 20.0)),
                   Text(
                       "Investir em ouro é possível e nada complicado. O fundo ouro é mais uma opção para diversificar seus investimentos e buscar proteção para o seu capital em momentos de forte oscilação do mercado. Influenciado pela lei da oferta e da procura, o ouro é uma mercadoria cujo preço passa por oscilações diárias. Por esse motivo, o fundo ouro é um investimento de médio a longo prazo."
-                      "O ouro é um dos investimentos mais antigos do mundo, e até hoje é visto como uma opção de proteção contra as oscilações na sua carteira de investimentos em meio a incertezas na economia. Quando a crise impacta negativamente a bolsa de valores e os mercados, a busca por esse tipo de investimento aumenta e o preço do ouro tende a subir."
-                      "Atualmente há diversas maneiras de investir nesse ativo, desde comprar barras, adquirir contratos de ouro na bolsa de valores brasileira, e, o mais acessível de todos, investir no fundo ouro!"
-                      "O fundo ouro funciona como os outros tipos de fundos de investimento. A gestão é feita por especialistas qualificados e esse investimento reúne recursos de diversas pessoas. Os ganhos obtidos são divididos entre os participantes, na proporção do valor aplicado por cada um."
-                      "No fundo ouro há menor burocracia para investir, já que o investidor conta com uma equipe especializada que escolhe as estratégias ideais para potencializar o lucro. Os fundos de investimento em ouro possuem alta liquidez.",
+                      " O ouro é um dos investimentos mais antigos do mundo, e até hoje é visto como uma opção de proteção contra as oscilações na sua carteira de investimentos em meio a incertezas na economia. Quando a crise impacta negativamente a bolsa de valores e os mercados, a busca por esse tipo de investimento aumenta e o preço do ouro tende a subir."
+                      " Atualmente há diversas maneiras de investir nesse ativo, desde comprar barras, adquirir contratos de ouro na bolsa de valores brasileira, e, o mais acessível de todos, investir no fundo ouro!"
+                      " O fundo ouro funciona como os outros tipos de fundos de investimento. A gestão é feita por especialistas qualificados e esse investimento reúne recursos de diversas pessoas. Os ganhos obtidos são divididos entre os participantes, na proporção do valor aplicado por cada um."
+                      " No fundo ouro há menor burocracia para investir, já que o investidor conta com uma equipe especializada que escolhe as estratégias ideais para potencializar o lucro. Os fundos de investimento em ouro possuem alta liquidez.",
                       textDirection: TextDirection.ltr,
                       textAlign: TextAlign.justify),
                 ],

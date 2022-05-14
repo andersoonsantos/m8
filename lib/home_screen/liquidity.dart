@@ -46,7 +46,7 @@ class _LiquidityState extends State<Liquidity> {
                 Image(image: AssetImage("images/liquidez.png"), height: 100),
                 Padding(padding: const EdgeInsets.symmetric(vertical: 20.0)),
                 Text(
-                    "Liquidez é a capacidade de conversão de um bem em dinheiro. Ou seja, é a rapidez com a qual você consegue se desfazer de algo que você possui para receber dinheiro em mãos",
+                    "Liquidez é a capacidade de conversão de um bem em dinheiro. Ou seja, é a rapidez com a qual você consegue se desfazer de algo que você possui para receber dinheiro em mãos.",
                     textDirection: TextDirection.ltr,
                     textAlign: TextAlign.justify),
               ],
