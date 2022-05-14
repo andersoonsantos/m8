@@ -11,7 +11,7 @@ class QuestionBrain {
         'O ativo de renda váriavel é mais arriscado por não ser possível dimensionar se retorno ?',
         true),
     Question(
-        'Risco de mercado é a incerteza quanto ao cpmportamento do preço dos ativos ?',
+        'Risco de mercado é a incerteza quanto ao comportamento do preço dos ativos ?',
         true),
     Question('Títulos públicos e CDBs são ativos de renda váriavel ?', false),
     Question(
