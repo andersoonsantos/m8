@@ -15,10 +15,11 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
 </br>
 
 
-<p align="center"> - Cadastro de usuários</p>
-<p align="center"> - Lições sobre temas voltado para finanças</p>
-<p align="center"> - Atividades para reforçar o conteúdo</p>
-<p align="center"> - Exemplos para aplicação do tema no dia a dia</p> 
+<p align="center"> - Login de usuários</p>
+<p align="center"> - Conteúdos sobre finanças</p>
+<p align="center"> - Lições</p>
+
+
 </br>
 
 <h2 align="center"> - Vídeo de Apresentação </h2>
@@ -35,8 +36,9 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
 
 <h2 align="center"> - Fluxograma </h2>
 </br>
-
-<p  align="center"> Em desenvolvimento :warning:</p>
+<p align="center">
+  <img src="Interface/Fluxograma.png" alt=”some text” width=1000 height=400>
+</p>
 </br>
 
 <h2 align="center"> - Update </h2>
@@ -53,12 +55,28 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
 
 <h2 align="center"> - Interface</h2>
  <br />
-
-<p  align="center"> Em desenvolvimento :warning:</p>
+<p align="center">
+  <img src="Interface/splash.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Login.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Inicio.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Liquidez.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Rentabilidade.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Selic.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Ipca.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Economizar.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Ouro.png" alt=”some text” width=200 height=400>
+  <img src="Interface/Moedas.png" alt=”some text” width=200 height=400>
+ <img src="Interface/Licoes.png" alt=”some text” width=200 height=400>
+ <img src="Interface/Licao_1.png" alt=”some text” width=200 height=400>
+ <img src="Interface/Licao_2.png" alt=”some text” width=200 height=400>
+ <img src="Interface/Licao_3.png" alt=”some text” width=200 height=400>
+ <img src="Interface/Sobre.png" alt=”some text” width=200 height=400>
+ </p>
 </br>
 
 <h2 align="center"> - Navegação</h2>
  <br />
- 
-<p  align="center"> Em desenvolvimento :warning:</p>
+<p align="center">
+  <img src="Interface/navegacao.png" alt=”some text” width=800 height=400>
+</p>
 </br>
