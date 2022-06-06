@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "286392791195",
-    "project_id": "m8login",
-    "storage_bucket": "m8login.appspot.com"
+    "project_number": "2695978399",
+    "project_id": "flutter-login-2a437",
+    "storage_bucket": "flutter-login-2a437.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:286392791195:android:bba90c98822d786c3e963e",
+        "mobilesdk_app_id": "1:2695978399:android:57ecc9f852b5671b0ef1aa",
         "android_client_info": {
-          "package_name": "com.example.m8"
+          "package_name": "app.m8"
         }
       },
       "oauth_client": [
         {
-          "client_id": "286392791195-i0riuhtu8voj5dfc7lsi3sn75b2ekhkc.apps.googleusercontent.com",
+          "client_id": "2695978399-b81gpsdm35rst2055pi608k1uimu8aup.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDnOW2yWEDGw6hZWjk9f2k5GFEoIo4_5aI"
+          "current_key": "AIzaSyBPeZj5jYnHxP7OoUpGP2JNP_CCJ54i9IE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "286392791195-i0riuhtu8voj5dfc7lsi3sn75b2ekhkc.apps.googleusercontent.com",
+              "client_id": "2695978399-b81gpsdm35rst2055pi608k1uimu8aup.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
