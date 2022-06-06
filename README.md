@@ -25,7 +25,7 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
 <h2 align="center"> - Vídeo de Apresentação </h2>
 </br>
 
-<p align="center">Em desenvolvimento :warning: </p>
+<p align="center"><a href="https://youtu.be/beU1h2ej5Pg" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a></p>
 </br>
 
 <h2 align="center"> - Vídeo Propaganda </h2>
