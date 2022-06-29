@@ -32,7 +32,13 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
 </br>
 
 <p align="center"><a href="https://youtu.be/-MrfZk5fDmw" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a></p>
+
+
+<h2 align="center"> - Play Store </h2>
 </br>
+<p align="center"><a href="https://play.google.com/store/apps/details?id=app.m8" target="_blank"><img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" target="_blank"></a></p>
+</br>
+
 
 <h2 align="center"> - Fluxograma </h2>
 </br>
@@ -80,3 +86,4 @@ mas precisa daquele impulso inicial e de uma melhor organização dos temas.</p>
   <img src="Interface/navegacao.png" alt=”some text” width=800 height=400>
 </p>
 </br>
+
